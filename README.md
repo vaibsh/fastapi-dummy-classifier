@@ -1,8 +1,8 @@
 # fastapi-dummy-classifier
-The task is to write FastAPI app with '/predict' endpoint. The app does the following:
-a) loads a dummy classifier
-b) Accepts POST requests with JSON with 4 fields e.g.: {"features": [5.1, 3.5, 1.4, 0.2]}
-c) Return a prediction in JSON format e.g.: {"prediction": "class A"}
+The task is to write FastAPI app with '/predict' endpoint. The app does the following:<br>
+a) loads a dummy classifier<br>
+b) Accepts POST requests with JSON with 4 fields e.g.: {"features": [5.1, 3.5, 1.4, 0.2]}<br>
+c) Returns a prediction in JSON format e.g.: {"prediction": "class A"}
 
 ## Overview
 1. Classifier used is dummy classifier. It takes the 1st feature i.e. in the features array only 1st element, feature[0]

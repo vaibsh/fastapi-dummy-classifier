@@ -6,7 +6,7 @@ c) Return a prediction in JSON format e.g.: {"prediction": "class A"}
 
 ## Overview
 1. Classifier used is dummy classifier. It takes the 1st feature i.e. in the features array only 1st element, feature[0]
-   is considered. A rule based approach is used to classify the value into classes A, B, C, D
+   is considered. A rule based approach is used to classify the value into classes A, B, C, D<br>
    if features[0] < 1.0 => class A
    if 1.0 <= features[0] < 2.0 => class B
    ...

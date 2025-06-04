@@ -13,12 +13,12 @@ c) Return a prediction in JSON format e.g.: {"prediction": "class A"}
 3. Response is returned in JSON format
 
 ## Usage
-1. Build the docker image using the command:
+1. Build the docker image using the command:<br>
    docker build -t fastapi-dummy-classifier .<br>
    This will build the image 'fastapi-dummy-classifier'
-3. Start the server at the port 8000:
+3. Start the server at the port 8000:<br>
    docker run -p 8000:8000 -it fastapi-dummy-classifier<br>
-5. Test the app using the following command:
+5. Test the app using the following command:<br>
    curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" -d '{"features": [3.1, 3.5, 1.4, 0.2]}'
-7. Response recieved would be in the format:
+7. Response recieved would be in the format:<br>
    {"prediction":"class D"}
